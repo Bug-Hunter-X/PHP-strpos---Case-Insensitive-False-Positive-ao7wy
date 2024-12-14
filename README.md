@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in PHP's case-insensitive string search using `strpos()`. The bug arises when the needle is a substring of the haystack with different capitalization, leading to a false positive. The solution shows how to avoid this by employing a more precise comparison method.
