@@ -1,0 +1,1 @@
+The improved solution uses `stripos()` and performs an exact match check to ensure that the found substring matches the needle exactly, eliminating the possibility of a false positive due to partial matches with different casing.  This approach ensures the accuracy of case-insensitive searches. 
